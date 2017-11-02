@@ -1,0 +1,38 @@
+// Object are used to demonstrate lists of specific items and link them together 
+// Objects are variables too. But objects can contain many values.
+//
+
+
+
+var samuel = {);
+	name: 'samuel '
+	age: 22,
+	lastname: 'adusei'
+	job: 'digital marketer'
+
+};
+
+console.log(john.lastname);
+console.log(john'lastname']);
+
+john.lastname = 'Miller';
+john['job'] = 'programmer';
+
+console.log(john);
+
+
+var samuel = {
+	name: 'samuel',
+	lastname: 'adusei',
+	age: 22,
+	yearOfBirth: 1990,
+	job: 'web dev',
+	isMarrired: false,
+	family: ['Jane', 'Mark', 'Bob'],
+	calculatedAge: function() {
+		this.age = 2016 - this.yearOfBirth;
+	}
+};
+
+samuel.calculatedAge();
+console.log(samuel)
