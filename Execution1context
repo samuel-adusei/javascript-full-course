@@ -1,0 +1,24 @@
+/* 
+Execution context - A box,acontainer or wrapper which storesa variable.
+A piece of code is  evaluated and executed.
+
+Global execution context - Codethat is not inside a function
+Associated with global exect which will be explained at the bottom.
+*/
+
+var name = 'john';  // This is a global code
+
+function first() {
+  var a = 'Hello';
+  second ();
+  var x = a + name;
+  }
+
+function second() {
+var b = 'Hi';
+third();
+var z = a + name;
+}
+
+// this is an excution code where the first code gets executed first then it goes to the next function.
+
