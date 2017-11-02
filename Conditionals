@@ -1,0 +1,30 @@
+Very often when you write code, you want to perform different actions for different decisions.
+
+You can use conditional statements in your code to do this.
+
+In JavaScript we have the following conditional statements:
+
+Use if to specify a block of code to be executed, if a specified condition is true
+Use else to specify a block of code to be executed, if the same condition is false
+Use else if to specify a new condition to test, if the first condition is false
+Use switch to specify many alternative blocks of code to be executed
+
+
+
+var samuel = 170;
+var daniel = 150;
+var sage = 22;
+var dage = 20;
+
+var scoresamuel = samuel + 5 * sage;
+var scoredaniel = daniel + 5 * dage;
+
+if(samuel > daniel) {
+	console.log( "Samuel wins with" scoresamuel " points");
+	else if(samuel === daniel) {
+		console.log("This is a draw");
+	} else if(samuel > daniel){
+		console.log("Daniel wins with" scoredaniel  "points");
+	}
+
+}
