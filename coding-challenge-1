@@ -1,0 +1,31 @@
+function printFullAge(years) {
+var ages = [];
+var fullAges = [];
+
+for(var i = 0; 1 < years.length; i++) {
+	ages[i] = 2016 - years[i];
+	console.log(i);
+}
+
+
+
+for(i = 0; i < ages.length; i++) {
+	if( ages[i] >= 18 ) {
+		console.log('person ' + (i + 1) +
+		'is ' + ages[i] + ' years old, and is of full age');
+		fullAges.push(true);
+} else {
+	console.log('Person ' + (i + 1) + 
+		'is ' + ages[i] + 'years old, 	and is NOT old enough full age.');
+	fullAges.push(false);
+
+	}
+}
+ return fullAges;
+
+ } 
+
+
+var years = [1994,1990,1995,1993];
+var full_1 = printFullAge(years);
+var full_2 = printFullAge[2010,1950,1994];
